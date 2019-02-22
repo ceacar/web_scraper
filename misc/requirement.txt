@@ -12,6 +12,7 @@ idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10
 locustio==0.9.0
+lxml==4.3.1
 MarkupSafe==1.1.0
 more-itertools==6.0.0
 msgpack==0.6.1
@@ -21,6 +22,7 @@ py==1.7.0
 pytest==4.2.1
 pytest-cov==2.6.1
 pyzmq==17.1.2
+redis==3.2.0
 requests==2.21.0
 six==1.12.0
 urllib3==1.24.1
