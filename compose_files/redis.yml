@@ -1,0 +1,35 @@
+version: '2.0'
+
+services:
+
+  redis:
+    image: redis:4.0.11-alpine
+    ports:
+      - '10000:6379'
+
+
+    #web:
+    #  build: .
+    #  image: web
+    #  container_name: web
+    #  ports:
+    #    - '5004:5000'
+    #  command: python manage.py run -h 0.0.0.0
+    #  volumes:
+    #    - .:/usr/src/app
+    #  environment:
+    #    - FLASK_DEBUG=1
+    #    - APP_SETTINGS=project.server.config.DevelopmentConfig
+    #  depends_on:
+    #    - redis
+
+    #worker:
+    #  image: web
+    #  command: python manage.py run_worker
+    #  volumes:
+    #    - .:/usr/src/app
+    #  environment:
+    #    - APP_SETTINGS=project.server.config.DevelopmentConfig
+    #  depends_on:
+    #    - redis
+

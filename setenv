@@ -1,0 +1,9 @@
+project_name="blazing_potato"
+source ./venv_py3/bin/activate
+export PS1="blaz_p $PS1"
+export PYTHONPATH=$PWD:$PWD/$project_name:$PYTHONPATH
+export PORT=35556
+export SERVER_IP="localhost"
+export PROJECT_NAME="$project_name"
+export CACHE_SERVER_URL="http://localhost"
+export CACHE_SERVER_PORT="35555"

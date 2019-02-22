@@ -1,0 +1,8 @@
+The challenge is to build a server that serves as a remote key-value store, similar to Redis or Memcached. As part of our scraping, we want to be able to store the last time we’ve scraped a url in a
+cache so that the system won’t scrape the same page too frequently.
+
+A user should be able to set a value for a given key. The user should also be able to lookup a value for a previously stored key.
+
+Don’t worry about optimizing for performance right now. If you encounter any edge cases, feel free to use your best judgement and add a comment.
+
+You can use any language you want, but there is a strong preference for a language where we will be able to easily run your server (any modern, semi-popular language will be fine).
